@@ -41,6 +41,29 @@ const Career = () => {
             </div>
           ))}
         </div>
+        <h3 className="career-education-title">Certificates</h3>
+        <div className="certificate-grid">
+          {config.certificates.map((certificate) => (
+            <article key={certificate.title} className="certificate-card">
+              <h4>{certificate.title}</h4>
+              <p>
+                {certificate.provider} <span>·</span> {certificate.date}
+              </p>
+              <div className="certificate-links">
+                <a href={certificate.file} target="_blank" rel="noreferrer">
+                  View certificate
+                </a>
+                <a
+                  href={certificate.verificationUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Verify
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -59,6 +59,43 @@ export const config = {
         "CGPA: 3.00/4.0. Relevant coursework: Data Structures & Algorithms, Object-Oriented Programming (C++), Database Management Systems, and Introduction to AI.",
     },
   ],
+  certificates: [
+    {
+      title: "The Nuts and Bolts of Machine Learning",
+      provider: "Google · Coursera",
+      date: "Aug 23, 2026",
+      file: "/certificates/nuts-and-bolts-of-machine-learning.pdf",
+      verificationUrl: "https://coursera.org/verify/SMZ2TDC09UCU",
+    },
+    {
+      title: "Crash Course on Python",
+      provider: "Google · Coursera",
+      date: "Aug 23, 2026",
+      file: "/certificates/crash-course-on-python.pdf",
+      verificationUrl: "https://coursera.org/verify/IX7IWRFEF1L5",
+    },
+    {
+      title: "AI Fundamentals",
+      provider: "Google · Coursera",
+      date: "Aug 22, 2026",
+      file: "/certificates/ai-fundamentals.pdf",
+      verificationUrl: "https://coursera.org/verify/595ZIN3EEPTR",
+    },
+    {
+      title: "AI for Data Analysis",
+      provider: "Google · Coursera",
+      date: "Aug 22, 2026",
+      file: "/certificates/ai-for-data-analysis.pdf",
+      verificationUrl: "https://coursera.org/verify/4TQL0OXZER5Q",
+    },
+    {
+      title: "AI for App Building",
+      provider: "Google · Coursera",
+      date: "Aug 22, 2026",
+      file: "/certificates/ai-for-app-building.pdf",
+      verificationUrl: "https://coursera.org/verify/1ET405IXW0BA",
+    },
+  ],
   projects: [
     {
       id: 1,
