@@ -524,3 +524,45 @@ h2.landing-info-h2 {
     font-size: 75px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .landing-info h2,
+  h2.landing-info-h2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 !important;
+    font-size: clamp(20px, 7vw, 32px) !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.02em;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .landing-info h2 > div {
+    width: 100%;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .landing-info {
+    left: 50%;
+    right: auto;
+    width: min(92vw, 700px);
+    transform: translate(-50%, 0);
+    text-align: center;
+  }
+
+  .landing-info h2,
+  h2.landing-info-h2 {
+    width: 100%;
+    margin: 0;
+    line-height: 1.15;
+    white-space: normal;
+  }
+
+  .landing-info h2 > div {
+    white-space: normal;
+  }
+}
